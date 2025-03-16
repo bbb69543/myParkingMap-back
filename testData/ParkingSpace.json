@@ -1,0 +1,3652 @@
+{
+  "UpdateTime": "2023-10-03T18:19:11+08:00",
+  "UpdateInterval": 14400,
+  "AuthorityCode": "TXG",
+  "VersionID": 22,
+  "Count": 204,
+  "ParkingSpaces": [
+    {
+      "CarParkID": "06P0C0016A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-國豐P"
+      },
+      "TotalSpaces": 68,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 29,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 68,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-大鵬P  "
+      },
+      "TotalSpaces": 16,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 14,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "13P0C0004B",
+      "CarParkName": {
+        "Zh_tw": "沙鹿區-公有-沙田立體P"
+      },
+      "TotalSpaces": 278,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 92,
+          "StayType": 1
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 186,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-國資圖P"
+      },
+      "TotalSpaces": 89,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 89,
+          "MaxAllowedLength": 200,
+          "MaxAllowedWidth": 100,
+          "MaxAllowedHeight": 0,
+          "MaxAllowedWeight": 0,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公所-長安P"
+      },
+      "TotalSpaces": 25,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 25,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0029A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-惠中停車場(B區)"
+      },
+      "TotalSpaces": 109,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 109,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 7,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 3,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 2,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0007A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-長億P"
+      },
+      "TotalSpaces": 29,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 29,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-(細停178)自立P"
+      },
+      "TotalSpaces": 29,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 29,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 29,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0001C",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-大里運動公園地下P"
+      },
+      "TotalSpaces": 960,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 960,
+          "MaxAllowedLength": 525,
+          "MaxAllowedWidth": 250,
+          "MaxAllowedHeight": 200,
+          "MaxAllowedWeight": 3500,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0012A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-健行P"
+      },
+      "TotalSpaces": 158,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 158,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "18P0C0004A",
+      "CarParkName": {
+        "Zh_tw": "大雅區-公有-停六P"
+      },
+      "TotalSpaces": 60,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 60,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-(停61)十甲P"
+      },
+      "TotalSpaces": 37,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 37,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-坪林森林附屬P"
+      },
+      "TotalSpaces": 203,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 134,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-下石碑P"
+      },
+      "TotalSpaces": 156,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 156,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0012A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-忠義P  "
+      },
+      "TotalSpaces": 15,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 15,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-惠文P"
+      },
+      "TotalSpaces": 310,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 310,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0015A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-博愛重劃區P3、5"
+      },
+      "TotalSpaces": 41,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 41,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0018B",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-正心立體停車場"
+      },
+      "TotalSpaces": 264,
+      "Spaces": [
+        {
+          "SpaceType": 11,
+          "IsMechanical": 0,
+          "HasChargingPoint": 1,
+          "NumberOfSpaces": 11,
+          "StayType": 254
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 257,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 7,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 7,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 6,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 6,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-協和P  "
+      },
+      "TotalSpaces": 73,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 73,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0007A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-吉龍P"
+      },
+      "TotalSpaces": 61,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 61,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0021A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-朝富P"
+      },
+      "TotalSpaces": 171,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 171,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0022A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(廣兼停5)祥和P"
+      },
+      "TotalSpaces": 593,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 593,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0016C",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-富春國小地下P"
+      },
+      "TotalSpaces": 141,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 141,
+          "MaxAllowedLength": 525,
+          "MaxAllowedWidth": 250,
+          "MaxAllowedHeight": 210,
+          "MaxAllowedWeight": 3500,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "10P0C0005B",
+      "CarParkName": {
+        "Zh_tw": "東勢區-公所-綜合立體P"
+      },
+      "TotalSpaces": 367,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 307,
+          "StayType": 1
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 60,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-(停37)忠孝P"
+      },
+      "TotalSpaces": 42,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 42,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-一心P"
+      },
+      "TotalSpaces": 58,
+      "Spaces": [
+        {
+          "SpaceType": 7,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 11,
+          "IsMechanical": 0,
+          "HasChargingPoint": 1,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 54,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 2,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0014A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-博愛重劃區P11"
+      },
+      "TotalSpaces": 6,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 6,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "17P0C0002C",
+      "CarParkName": {
+        "Zh_tw": "潭子-公有-國民暨兒童運動中心(B2層)停車場"
+      },
+      "TotalSpaces": 78,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 78,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0014A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-藍興P"
+      },
+      "TotalSpaces": 39,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 39,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0025A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-銀聯三村P"
+      },
+      "TotalSpaces": 172,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 172,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 97,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0004C",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-大墩國中地下P"
+      },
+      "TotalSpaces": 158,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 158,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0012A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-工學六街停車場"
+      },
+      "TotalSpaces": 9,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 9,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-復興P"
+      },
+      "TotalSpaces": 9,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 9,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-葫蘆墩圳平面P8"
+      },
+      "TotalSpaces": 64,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 64,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0017A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-松榮P"
+      },
+      "TotalSpaces": 54,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 54,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公所-馬卡龍公園P"
+      },
+      "TotalSpaces": 203,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 126,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 77,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-大慶P"
+      },
+      "TotalSpaces": 131,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 131,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-大明路中興P"
+      },
+      "TotalSpaces": 250,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 152,
+          "StayType": 3
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 98,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "11P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "大甲區-公有-停三P"
+      },
+      "TotalSpaces": 75,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 75,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0023A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(細廣停2)太和P"
+      },
+      "TotalSpaces": 42,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 42,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0004A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-平和P"
+      },
+      "TotalSpaces": 7,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 7,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0013A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-新興P"
+      },
+      "TotalSpaces": 191,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 191,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-樹德P"
+      },
+      "TotalSpaces": 72,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 72,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-鳥竹圍公園P"
+      },
+      "TotalSpaces": 53,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 53,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "18P0C0001B",
+      "CarParkName": {
+        "Zh_tw": "大雅區-公有-停一立體P"
+      },
+      "TotalSpaces": 234,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 1,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 234,
+          "MaxAllowedLength": 550,
+          "MaxAllowedWidth": 250,
+          "MaxAllowedHeight": 180,
+          "MaxAllowedWeight": 2500,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0009A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-葫蘆墩圳平面P7"
+      },
+      "TotalSpaces": 61,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 61,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0019A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-惠順P"
+      },
+      "TotalSpaces": 108,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 108,
+          "StayType": 255
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 192,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "17P0C0003B",
+      "CarParkName": {
+        "Zh_tw": "潭子區-公有-潭興立體停車場"
+      },
+      "TotalSpaces": 300,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 300,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 111,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0016A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-松竹P"
+      },
+      "TotalSpaces": 472,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 472,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0020A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-朝馬P  ",
+        "En": ""
+      },
+      "TotalSpaces": 123,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 123,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0016C",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-國立興大附中地下P"
+      },
+      "TotalSpaces": 231,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 230,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-健康公園附設P"
+      },
+      "TotalSpaces": 54,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 54,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0013A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-廣兼停六P   "
+      },
+      "TotalSpaces": 163,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 163,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0016A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-豐功P"
+      },
+      "TotalSpaces": 97,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 97,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0004A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-新光廣兼停一P"
+      },
+      "TotalSpaces": 68,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 68,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "24P0C0006C",
+      "CarParkName": {
+        "Zh_tw": "大肚區-公所-大肚地下P"
+      },
+      "TotalSpaces": 177,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 54,
+          "StayType": 1
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 123,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0026A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-櫻花P  "
+      },
+      "TotalSpaces": 21,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 20,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0027A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-秋紅谷平面停車場"
+      },
+      "TotalSpaces": 1159,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 3,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1045,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 10,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 23,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 114,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-金龍P"
+      },
+      "TotalSpaces": 32,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 32,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-大墩P"
+      },
+      "TotalSpaces": 52,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 52,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0002B",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-中興立體P"
+      },
+      "TotalSpaces": 198,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 198,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-天津P"
+      },
+      "TotalSpaces": 26,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 26,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0004A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-育強P"
+      },
+      "TotalSpaces": 14,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 14,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-何厝P"
+      },
+      "TotalSpaces": 27,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 27,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0012C",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-萬壽棒球場附屬地下P"
+      },
+      "TotalSpaces": 91,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 91,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0004A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-大新P"
+      },
+      "TotalSpaces": 29,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 29,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-南屯P  "
+      },
+      "TotalSpaces": 58,
+      "Spaces": [
+        {
+          "SpaceType": 7,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 2,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 55,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(廣停66)新平P"
+      },
+      "TotalSpaces": 150,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 150,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0009A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-立元P"
+      },
+      "TotalSpaces": 222,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 221,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "18P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "大雅區-公有-三和公園附屬P"
+      },
+      "TotalSpaces": 16,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 16,
+          "MaxAllowedLength": 550,
+          "MaxAllowedWidth": 250,
+          "MaxAllowedHeight": 300,
+          "MaxAllowedWeight": 9999,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-中賓P"
+      },
+      "TotalSpaces": 178,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 178,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0007A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-東英P"
+      },
+      "TotalSpaces": 109,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 3,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 11,
+          "IsMechanical": 0,
+          "HasChargingPoint": 1,
+          "NumberOfSpaces": 2,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 102,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 8,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 2,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-文心森林公園附屬P"
+      },
+      "TotalSpaces": 116,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 116,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0001B",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-(停71)漢口立體P"
+      },
+      "TotalSpaces": 372,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 372,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0020A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-雷中P"
+      },
+      "TotalSpaces": 23,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 23,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0019A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-軍福P"
+      },
+      "TotalSpaces": 36,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 36,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0028A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-惠中停車場(A區)"
+      },
+      "TotalSpaces": 217,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 5,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 7,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 5,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 217,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-仁德P"
+      },
+      "TotalSpaces": 141,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 141,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0015C",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-雙十國中地下停車場"
+      },
+      "TotalSpaces": 102,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 102,
+          "MaxAllowedHeight": 220,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0032C",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-市政公園地下停車場"
+      },
+      "TotalSpaces": 899,
+      "Spaces": [
+        {
+          "SpaceType": 11,
+          "IsMechanical": 0,
+          "HasChargingPoint": 1,
+          "NumberOfSpaces": 20,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 7,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 17,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 18,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "18P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "大雅區-公有-停四P"
+      },
+      "TotalSpaces": 32,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 23,
+          "StayType": 5
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0014C",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-臺中公園地下P  "
+      },
+      "TotalSpaces": 440,
+      "Spaces": [
+        {
+          "SpaceType": 11,
+          "IsMechanical": 1,
+          "HasChargingPoint": 1,
+          "NumberOfSpaces": 8,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 11,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 7,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 8,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 413,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0028A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-平德停車場"
+      },
+      "TotalSpaces": 10,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 10,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-大新P  "
+      },
+      "TotalSpaces": 43,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 7,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 41,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0015A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-雙龍P"
+      },
+      "TotalSpaces": 17,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 17,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-信心P"
+      },
+      "TotalSpaces": 195,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 195,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "18P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "大雅區-公有-中清雅潭P"
+      },
+      "TotalSpaces": 14,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 5,
+          "MaxAllowedLength": 525,
+          "MaxAllowedWidth": 250,
+          "MaxAllowedHeight": 210,
+          "MaxAllowedWeight": 3500,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0004A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(細廣停2)中平P"
+      },
+      "TotalSpaces": 17,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 17,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-忠明路臨時P"
+      },
+      "TotalSpaces": 100,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 100,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0007A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-公六公園P"
+      },
+      "TotalSpaces": 30,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 30,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-中德P"
+      },
+      "TotalSpaces": 29,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 29,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0M0001A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-建國北P"
+      },
+      "TotalSpaces": 821,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 759,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0014A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-江興P"
+      },
+      "TotalSpaces": 82,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 82,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0017A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-細停二P"
+      },
+      "TotalSpaces": 43,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 43,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-葫蘆墩圳平面P9"
+      },
+      "TotalSpaces": 45,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 45,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-民龍P"
+      },
+      "TotalSpaces": 25,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 25,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0018A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-豐原區社會住宅預定地臨時停車場"
+      },
+      "TotalSpaces": 32,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 32,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 50,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-精武東P"
+      },
+      "TotalSpaces": 37,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 37,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-貴和P"
+      },
+      "TotalSpaces": 17,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 17,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0017A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-豐樂P"
+      },
+      "TotalSpaces": 359,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 359,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-仁堤P"
+      },
+      "TotalSpaces": 56,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 56,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-三塊厝P"
+      },
+      "TotalSpaces": 336,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 322,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 5,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 14,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-國光公園P"
+      },
+      "TotalSpaces": 29,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 29,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0012A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-廣兼停五P   "
+      },
+      "TotalSpaces": 22,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 22,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-田心路平面P"
+      },
+      "TotalSpaces": 37,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 37,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-中陽路平面P"
+      },
+      "TotalSpaces": 44,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 44,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0016C",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-忠明公園地下停車場"
+      },
+      "TotalSpaces": 80,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 80,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0021C",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-臺中市中央公園地下P"
+      },
+      "TotalSpaces": 1334,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 812,
+          "StayType": 255
+        },
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 522,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0003B",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-新平立體P"
+      },
+      "TotalSpaces": 196,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 196,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0007A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-太原P"
+      },
+      "TotalSpaces": 22,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 22,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-林森P"
+      },
+      "TotalSpaces": 72,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 72,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-馬祖P"
+      },
+      "TotalSpaces": 57,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 59,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-崇倫北街19巷停車場"
+      },
+      "TotalSpaces": 21,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 21,
+          "MaxAllowedLength": 525,
+          "MaxAllowedWidth": 250,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0022A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-福安P"
+      },
+      "TotalSpaces": 37,
+      "Spaces": [
+        {
+          "SpaceType": 15,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 37,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(公49)新平公園附屬P"
+      },
+      "TotalSpaces": 95,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 95,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0012A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-天祥P"
+      },
+      "TotalSpaces": 52,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 52,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "12P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "清水區-公有-牛罵頭P"
+      },
+      "TotalSpaces": 84,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 84,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0012A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-北陽路P"
+      },
+      "TotalSpaces": 212,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 212,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-光明P"
+      },
+      "TotalSpaces": 18,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 18,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0023A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-福恩P"
+      },
+      "TotalSpaces": 56,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 56,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "26P0C0001C",
+      "CarParkName": {
+        "Zh_tw": "霧峰區-公所-本堂公園地下P"
+      },
+      "TotalSpaces": 49,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 49,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0014A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-河南P  "
+      },
+      "TotalSpaces": 19,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 18,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0013A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-廣兼停二P"
+      },
+      "TotalSpaces": 134,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 134,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0013A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-精科P"
+      },
+      "TotalSpaces": 35,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 33,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0014A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-黎明P"
+      },
+      "TotalSpaces": 11,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 15,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-南平P"
+      },
+      "TotalSpaces": 75,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 75,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-城隍P"
+      },
+      "TotalSpaces": 18,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 17,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-弘孝P  "
+      },
+      "TotalSpaces": 37,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 36,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0024A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(細廣兼停2)長富P"
+      },
+      "TotalSpaces": 23,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 23,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(細廣停1)敦化P"
+      },
+      "TotalSpaces": 13,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 13,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0016A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-福音停車場"
+      },
+      "TotalSpaces": 180,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 180,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0007A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-東欣P"
+      },
+      "TotalSpaces": 63,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 63,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-山西P"
+      },
+      "TotalSpaces": 26,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 26,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0025A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(廣兼停7)南興P"
+      },
+      "TotalSpaces": 205,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 205,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0031A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-中央公園南側P"
+      },
+      "TotalSpaces": 376,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 376,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(細廣停1)景賢P"
+      },
+      "TotalSpaces": 105,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 105,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0018A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-軍功P"
+      },
+      "TotalSpaces": 41,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 41,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "17P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "潭子-公有-環中東路一段台74快速道路下P "
+      },
+      "TotalSpaces": 233,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 41,
+          "StayType": 4
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 192,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-平安廣場P"
+      },
+      "TotalSpaces": 28,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 28,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-葫蘆墩圳平面P3"
+      },
+      "TotalSpaces": 86,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 86,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0013C",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-民俗公園地下P"
+      },
+      "TotalSpaces": 273,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 273,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0004C",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-健康公園地下P"
+      },
+      "TotalSpaces": 31,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 31,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0015A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-錢嶺P"
+      },
+      "TotalSpaces": 75,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 75,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "11P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "大甲區-公有-經國路P"
+      },
+      "TotalSpaces": 68,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 68,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0024A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-福順P  "
+      },
+      "TotalSpaces": 88,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 88,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-土庫P"
+      },
+      "TotalSpaces": 93,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 93,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0007C",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-水安宮地下P"
+      },
+      "TotalSpaces": 104,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 104,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0003B",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-大益立體P"
+      },
+      "TotalSpaces": 156,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 156,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-國光花市P"
+      },
+      "TotalSpaces": 146,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 146,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0013A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-廣民P"
+      },
+      "TotalSpaces": 11,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 11,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0009C",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-柳川P"
+      },
+      "TotalSpaces": 98,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 98,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0009A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-中興網球附設P"
+      },
+      "TotalSpaces": 50,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 50,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0004A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-三賢P"
+      },
+      "TotalSpaces": 131,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 131,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0015A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-崇光P"
+      },
+      "TotalSpaces": 24,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 24,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0009A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-金華P"
+      },
+      "TotalSpaces": 45,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 45,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0003A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-仁興P"
+      },
+      "TotalSpaces": 19,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 19,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-葫蘆墩圳平面P6"
+      },
+      "TotalSpaces": 64,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 64,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0009A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-春安P"
+      },
+      "TotalSpaces": 33,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 33,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0017B",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-東榮立體P"
+      },
+      "TotalSpaces": 295,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 295,
+          "MaxAllowedLength": 400,
+          "MaxAllowedHeight": 250,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0004A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-大福P"
+      },
+      "TotalSpaces": 17,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 17,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-文昌P"
+      },
+      "TotalSpaces": 24,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 24,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0013B",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-東興立體P"
+      },
+      "TotalSpaces": 361,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 361,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "11P0C0001A",
+      "CarParkName": {
+        "Zh_tw": "大甲區-公有-文武P"
+      },
+      "TotalSpaces": 34,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 34,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-育樂P"
+      },
+      "TotalSpaces": 58,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 58,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "04P0C0010A",
+      "CarParkName": {
+        "Zh_tw": "西區-公有-美村P"
+      },
+      "TotalSpaces": 101,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 101,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0009A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-育賢P"
+      },
+      "TotalSpaces": 970,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 970,
+          "MaxAllowedLength": 550,
+          "MaxAllowedWidth": 250,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-新光廣停八P"
+      },
+      "TotalSpaces": 56,
+      "Spaces": [
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 56,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0005B",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-干城立體P"
+      },
+      "TotalSpaces": 478,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 478,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0018A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-永興停車場"
+      },
+      "TotalSpaces": 43,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 43,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0009B",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-南京立體P"
+      },
+      "TotalSpaces": 774,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 774,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0004B",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-育英路立體P"
+      },
+      "TotalSpaces": 164,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 164,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0015A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-昌和公園附設P"
+      },
+      "TotalSpaces": 41,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 41,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0029A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-永和巷公園附屬停車場"
+      },
+      "TotalSpaces": 65,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 65,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0015A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-馬龍潭P"
+      },
+      "TotalSpaces": 93,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 93,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-三光P"
+      },
+      "TotalSpaces": 63,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 63,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0030C",
+      "CarParkName": {
+        "Zh_tw": "北屯區-交通局-舊社公園地下P"
+      },
+      "TotalSpaces": 250,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 247,
+          "StayType": 254
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0009A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-同心P  "
+      },
+      "TotalSpaces": 15,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 14,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0018C",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-大里區益民國小地下P"
+      },
+      "TotalSpaces": 149,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 149,
+          "MaxAllowedLength": 600,
+          "MaxAllowedWidth": 250,
+          "MaxAllowedHeight": 210,
+          "MaxAllowedWeight": 0,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0012A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-新厝P"
+      },
+      "TotalSpaces": 130,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 130,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0007A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-崇倫公園附設P"
+      },
+      "TotalSpaces": 47,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 47,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0M0001A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-大智北機車P"
+      },
+      "TotalSpaces": 93,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 93,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-葫蘆墩圳平面P4"
+      },
+      "TotalSpaces": 60,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 60,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-上安P  "
+      },
+      "TotalSpaces": 14,
+      "Spaces": [
+        {
+          "SpaceType": 9,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 1,
+          "StayType": 2
+        },
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 13,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0014A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-廣兼停八P   "
+      },
+      "TotalSpaces": 156,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 156,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0M0002A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-城隍機車停車場"
+      },
+      "TotalSpaces": 104,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 104,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0C0006A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-旱溪P"
+      },
+      "TotalSpaces": 178,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 178,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0030A",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-中央公園北側P"
+      },
+      "TotalSpaces": 401,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 401,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0027A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(廣停5)同榮P"
+      },
+      "TotalSpaces": 140,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 140,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0M0001A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-橫街尾P"
+      },
+      "TotalSpaces": 156,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 156,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-立新社區P"
+      },
+      "TotalSpaces": 22,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 22,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0011A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-建成P"
+      },
+      "TotalSpaces": 58,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 58,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "06P0C0018B",
+      "CarParkName": {
+        "Zh_tw": "西屯區-公有-惠來立體P"
+      },
+      "TotalSpaces": 554,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 161,
+          "StayType": 255
+        },
+        {
+          "SpaceType": 0,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 393,
+          "StayType": 255
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0017A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-大湖停車場"
+      },
+      "TotalSpaces": 60,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 60,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0005A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公有-新光廣兼停四P"
+      },
+      "TotalSpaces": 72,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 72,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0017A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-環北站P"
+      },
+      "TotalSpaces": 27,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 27,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "08P0C0026A",
+      "CarParkName": {
+        "Zh_tw": "北屯區-公有-(廣兼停8)竹興P"
+      },
+      "TotalSpaces": 125,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 125,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "07P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "南屯區-公有-大進P"
+      },
+      "TotalSpaces": 29,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 29,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "03P0C0009A",
+      "CarParkName": {
+        "Zh_tw": "南區-公有-德義P"
+      },
+      "TotalSpaces": 30,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 30,
+          "StayType": 3
+        }
+      ]
+    },
+    {
+      "CarParkID": "27P0C0012A",
+      "CarParkName": {
+        "Zh_tw": "太平區-公所-祥順運動公園P"
+      },
+      "TotalSpaces": 47,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 47,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "02P0M0002A",
+      "CarParkName": {
+        "Zh_tw": "東區-公有-舊建國市場臨時P"
+      },
+      "TotalSpaces": 965,
+      "Spaces": [
+        {
+          "SpaceType": 2,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 835,
+          "MaxAllowedLength": 200,
+          "MaxAllowedWidth": 100,
+          "MaxAllowedHeight": 0,
+          "MaxAllowedWeight": 0,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "09P0C0007A",
+      "CarParkName": {
+        "Zh_tw": "豐原區-公有-葫蘆墩圳平面P5"
+      },
+      "TotalSpaces": 43,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 43,
+          "StayType": 4
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0019C",
+      "CarParkName": {
+        "Zh_tw": "北區-獎參-中正公園地下停車場"
+      },
+      "TotalSpaces": 860,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 860,
+          "MaxAllowedLength": 550,
+          "MaxAllowedWidth": 250,
+          "MaxAllowedHeight": 210,
+          "StayType": 1
+        }
+      ]
+    },
+    {
+      "CarParkID": "05P0C0008A",
+      "CarParkName": {
+        "Zh_tw": "北區-公有-武昌P"
+      },
+      "TotalSpaces": 21,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 21,
+          "StayType": 2
+        }
+      ]
+    },
+    {
+      "CarParkID": "28P0C0002A",
+      "CarParkName": {
+        "Zh_tw": "大里區-公有-德芳興P"
+      },
+      "TotalSpaces": 15,
+      "Spaces": [
+        {
+          "SpaceType": 1,
+          "IsMechanical": 0,
+          "HasChargingPoint": 0,
+          "NumberOfSpaces": 15,
+          "StayType": 1
+        }
+      ]
+    }
+  ]
+}
