@@ -1,8 +1,8 @@
 import fetchTDXData from "./fetchTDXData.js";
 import parkTestData from "../testData/taichungCarParkData.json" assert { type: "json" };
-import parkTestSpace from "../testData/ParkingSpace.json" assert { type: "json" };
 
-//停車場基本資料-所需欄位(API篩選失效)
+
+//停車場基本資料-所需欄位(API篩選filter失效)
 const selectParkData =
   "CarParkID,CarParkName,CarParkType,Telephone,CarParkPosition,Address,FareDescription,LiveOccuppancyAvailable,Toilet";
 //停車場基本資料API URL
@@ -11,58 +11,28 @@ const TDX_PARKDATA_URL =
   selectParkData +
   "&$format=json";
 
-//停車場車位數-所需欄位(API篩選失效)
-const selectSpaceData = "CarParkID,Spaces";
-//停車場車位數API URL
-const TDX_SpaceDATA_URL =
-  "https://tdx.transportdata.tw/api/basic/v1/Parking/OffStreet/ParkingSpace/City/Taichung?$select=" +
-  selectSpaceData +
-  "&$format=json";
 
 async function getParkData(accessToken) {
   try {
     // const parkData = await fetchTDXData(TDX_PARKDATA_URL, accessToken);
-    // const parkSpace = await fetchTDXData(TDX_SpaceDATA_URL, accessToken);
     const parkData = parkTestData;
-    const parkSpace = parkTestSpace;
 
-    const ParkSpaceMap = parkSpace.ParkingSpaces.reduce((map, item) => {
-      map[item.CarParkID] = (item.Spaces || []).map(
-        ({ SpaceType, NumberOfSpaces }) => ({
-          SpaceType,
-          NumberOfSpaces,
-        })
-      );
-      return map;
-    }, {});
 
-    const mergedParkData = parkData.CarParks.map(
-      ({
-        CarParkID,
-        CarParkName,
-        CarParkType,
-        Telephone,
-        CarParkPosition,
-        Address,
-        FareDescription,
-        LiveOccuppancyAvailable,
-        Toilet,
-      }) => ({
-        CarParkID,
-        CarParkName,
-        CarParkType,
-        Telephone,
-        CarParkPosition,
-        Address,
-        FareDescription,
-        LiveOccuppancyAvailable,
-        Toilet,
-        Spaces: ParkSpaceMap[CarParkID] || [],
-      })
-    );
-    console.log("取得資料成功");
-    return mergedParkData;
-    // return data;
+    const filteredData = parkData.CarParks.map(item => ({
+      CarParkID: item.CarParkID,
+      CarParkName: item.CarParkName.Zh_tw, // 取繁體中文名稱
+      CarParkType: item.CarParkType,
+      Telephone: item.Telephone,
+      CarParkPosition: item.CarParkPosition, // 直接保留 { PositionLat, PositionLon }
+      Address: item.Address,
+      FareDescription: item.FareDescription,
+      LiveOccuppancyAvailable: item.LiveOccuppancyAvailable,
+      Toilet: item.Toilet
+    }));
+
+    console.log("取得停車場資料成功");
+    return filteredData;
+
   } catch (error) {
     console.error(error);
   }

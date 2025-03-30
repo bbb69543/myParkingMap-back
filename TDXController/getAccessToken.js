@@ -18,7 +18,7 @@ async function getAccessToken(accessToken, tokenExpiry) {
 
   if (accessToken && currentTime < tokenExpiry) {
     console.log("✅ 使用快取的 Access Token");
-    return accessToken; // 回傳快取的 Token
+    return accessToken, tokenExpiry; // 回傳快取的 Token
   }
 
   console.log("🔄 Access Token 過期，重新取得中...");
@@ -38,12 +38,12 @@ async function getAccessToken(accessToken, tokenExpiry) {
 
     // 更新 Token 及過期時間
     accessToken = response.data.access_token;
-    // console.log(accessToken);
+
     tokenExpiry =
       Math.floor(Date.now() / 1000) + response.data.expires_in - 300; // 提前 5 分鐘刷新 Token
-    // console.log(tokenExpiry);
+
     console.log("✅ 取得新的 Access Token");
-    return accessToken;
+    return accessToken, tokenExpiry;
   } catch (error) {
     console.error(
       "❌ 無法取得 Access Token:",
