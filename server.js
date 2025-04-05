@@ -1,9 +1,9 @@
 import express from "express";
-import axios from "axios";
 import cors from "cors";
 import getAccessToken from "./TDXController/getAccessToken.js";
 import getParkData from "./TDXController/getParkData.js";
 import getSpaceData from "./TDXController/getSpaceData.js";
+import getAvailableSpace from "./TDXController/getAvailableSpace.js";
 import getMergeData from "./TDXController/getMergeData.js";
 
 const app = express();
@@ -20,11 +20,12 @@ let tokenExpiry = 5742107215; // Token 過期時間（UNIX 時間戳）
 
 //存放停車場基本資料
 let ParkData = await getParkData(accessToken);
+let SpaceData = await getSpaceData(accessToken);
 let parkDataExpiry = 5742107215; // 資料過期時間（UNIX 時間戳）
 
 //存放及時車位數資料
-let SpaceData = await getSpaceData(accessToken);
-let spaceDataExpiry = 5742107215; // 資料過期時間（UNIX 時間戳）
+let AvailableSpaces = await getAvailableSpace(accessToken);
+let availableSpaceDataExpiry = 5742107215; // 資料過期時間（UNIX 時間戳）
 
 app.use(cors(corsOptions));
 
@@ -37,24 +38,25 @@ app.get("/api/parkingLot", async (req, res) => {
     console.log("無須更新停車場基本資料");
   } else {
     ParkData = await getParkData(accessToken);
+    SpaceData = await getSpaceData(accessToken);
     parkDataExpiry = Math.floor(Date.now() / 1000) + 2592000; // 30天刷新
     console.log("更新停車場基本資料")
   }
 
-  if (SpaceData && currentTime < spaceDataExpiry) {
+  if (SpaceData && currentTime < availableSpaceDataExpiry) {
     console.log("無須更新最新停車位資料");
   } else {
-    SpaceData = await getSpaceData(accessToken);
-    spaceDataExpiry = Math.floor(Date.now() / 1000) + 300; // 5分鐘刷新
+    AvailableSpaces = await getAvailableSpace(accessToken);
+    availableSpaceDataExpiry = Math.floor(Date.now() / 1000) + 300; // 5分鐘刷新
     console.log("更新最新停車位資料")
   }
 
-  const initialParkData = getMergeData(ParkData, SpaceData);
+  const initialParkData = getMergeData(ParkData, SpaceData, AvailableSpaces);
   res.json(initialParkData);
 });
 
 app.get("/", (req, res) => {
-  const initialParkData = getMergeData(ParkData, SpaceData);
+  const initialParkData = getMergeData(ParkData, SpaceData, AvailableSpaces);
   res.json(initialParkData);
 })
 

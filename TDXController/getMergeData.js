@@ -1,4 +1,4 @@
-function getMergeData(parkData, ParkSpaceMap) {
+function getMergeData(parkData, parkSpaceMap, availableSpacesMap) {
     try {
   
       const mergedParkData = parkData.map(
@@ -22,11 +22,17 @@ function getMergeData(parkData, ParkSpaceMap) {
           FareDescription,
           LiveOccuppancyAvailable,
           Toilet,
-          Spaces: ParkSpaceMap[CarParkID] || [],
+          // Spaces: parkSpaceMap[CarParkID] || [],
+          AvailableSpaces: availableSpacesMap[CarParkID] || parkSpaceMap[CarParkID] || [],
         })
       );
+
+      const result = {};
+      result.UpdateTime = availableSpacesMap.updateTime;
+      result.Data = mergedParkData;
+
       console.log("合併資料成功");
-      return mergedParkData;
+      return result;
 
     } catch (error) {
       console.error(error);
