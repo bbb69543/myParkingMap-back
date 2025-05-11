@@ -1,6 +1,6 @@
 import fetchTDXData from "./fetchTDXData.js";
 
-import parkTestSpace from "../testData/ParkingAvailability.json" assert { type: "json" };
+// import parkTestSpace from "../testData/ParkingAvailability.json" assert { type: "json" };
 
 
 //停車場車位數-所需欄位(API篩選filter失效)
@@ -14,9 +14,9 @@ const TDX_SpaceDATA_URL =
 async function getAvailableSpace(accessToken) {
   try {
 
-    // const parkSpace = await fetchTDXData(TDX_SpaceDATA_URL, accessToken);
+    const parkSpace = await fetchTDXData(TDX_SpaceDATA_URL, accessToken);
 
-    const parkSpace = parkTestSpace;
+    // const parkSpace = parkTestSpace;
 
     const ParkSpaceMap = parkSpace.ParkingAvailabilities.reduce((map, item) => {
       map[item.CarParkID] = (item.Availabilities || []).map(

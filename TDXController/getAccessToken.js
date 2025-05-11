@@ -43,7 +43,7 @@ async function getAccessToken(accessToken, tokenExpiry) {
       Math.floor(Date.now() / 1000) + response.data.expires_in - 300; // 提前 5 分鐘刷新 Token
 
     console.log("✅ 取得新的 Access Token");
-    return accessToken, tokenExpiry;
+    return [accessToken, tokenExpiry];
   } catch (error) {
     console.error(
       "❌ 無法取得 Access Token:",

@@ -1,5 +1,5 @@
 import fetchTDXData from "./fetchTDXData.js";
-import parkTestData from "../testData/taichungCarParkData.json" assert { type: "json" };
+// import parkTestData from "../testData/taichungCarParkData.json" assert { type: "json" };
 
 
 //停車場基本資料-所需欄位(API篩選filter失效)
@@ -14,8 +14,8 @@ const TDX_PARKDATA_URL =
 
 async function getParkData(accessToken) {
   try {
-    // const parkData = await fetchTDXData(TDX_PARKDATA_URL, accessToken);
-    const parkData = parkTestData;
+    const parkData = await fetchTDXData(TDX_PARKDATA_URL, accessToken);
+    // const parkData = parkTestData;
 
 
     const filteredData = parkData.CarParks.map(item => ({

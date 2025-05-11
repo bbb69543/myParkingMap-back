@@ -9,6 +9,7 @@ async function fetchTDXData(apiUrl, accessToken) {
     const response = await axios.get(apiUrl, {
       headers: {
         Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/x-www-form-urlencoded",
         "Accept-Encoding": "br,gzip", // 減少回傳資料量
       },
     });

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "dev": "nodemon --legacy-watch server"
+    "dev": "nodemon --legacy-watch server.js"
   },
   "keywords": [],
   "author": "",
