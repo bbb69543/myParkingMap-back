@@ -5,7 +5,6 @@ import axios from "axios";
  */
 async function fetchTDXData(apiUrl, accessToken) {
   try {
-    // const token = await getValidAccessToken();
     const response = await axios.get(apiUrl, {
       headers: {
         Authorization: `Bearer ${accessToken}`,

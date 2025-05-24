@@ -31,7 +31,7 @@ function getMergeData(parkData, parkSpaceMap, availableSpacesMap) {
       result.UpdateTime = availableSpacesMap.updateTime;
       result.Data = mergedParkData;
 
-      console.log("合併資料成功");
+      console.log("合併資料成功!");
       return result;
 
     } catch (error) {
