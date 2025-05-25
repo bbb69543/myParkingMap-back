@@ -9,7 +9,7 @@ import getMergeData from "./TDXController/getMergeData.js";
 const app = express();
 const port = 3000;
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["http://localhost", "http://localhost:5173"],
 };
 
 // 存放 Access Token 快取
