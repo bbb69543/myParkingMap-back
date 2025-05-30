@@ -2,11 +2,9 @@
 FROM node:18-alpine
 
 # 安裝 AWS CLI 所需套件並安裝 AWS CLI
-RUN apk add --no-cache curl unzip bash && \
-    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
-    unzip awscliv2.zip && \
-    ./aws/install && \
-    rm -rf awscliv2.zip aws
+RUN apk add --no-cache curl unzip bash python3 py3-pip groff less && \
+    pip3 install awscli && \
+    aws --version
 
 # 設定工作目錄
 WORKDIR /app
