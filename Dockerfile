@@ -1,10 +1,25 @@
-# 使用 Node.js 作為基礎映像
-FROM node:18-alpine
+# 使用 Debian 版 Node 18
+FROM node:18
 
-# 安裝 AWS CLI 所需套件並安裝 AWS CLI
-RUN apk add --no-cache curl unzip bash python3 py3-pip groff less && \
-    pip3 install awscli && \
-    aws --version
+# 安裝 curl 和 unzip 等工具
+RUN apt-get update && apt-get install -y \
+    curl \
+    unzip \
+    bash \
+    python3 \
+    python3-pip \
+    groff \
+    less \
+  && rm -rf /var/lib/apt/lists/*
+
+# 安裝 AWS CLI v2 (官方建議方法)
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
+  && unzip awscliv2.zip \
+  && ./aws/install \
+  && rm -rf awscliv2.zip aws
+
+# 確認 awscli 版本
+RUN aws --version
 
 # 設定工作目錄
 WORKDIR /app
