@@ -9,7 +9,11 @@ import getMergeData from "./TDXController/getMergeData.js";
 const app = express();
 const port = 3000;
 const corsOptions = {
-  origin: ["http://localhost", "http://localhost:5173"],
+  origin: [
+    "http://localhost",
+    "http://localhost:5173",
+    "https://my-parking-map-front.vercel.app"
+  ],
 };
 
 // 存放 Access Token 快取
@@ -19,18 +23,16 @@ let tokenExpiry = 0; // Token 過期時間（UNIX 時間戳）
 // console.log(accessToken);
 
 //存放停車場基本資料
-// let ParkData = await getParkData(accessToken);
-// let SpaceData = await getSpaceData(accessToken);
 let ParkData = null;
 let SpaceData = null;
 let parkDataExpiry = 0; // 資料過期時間（UNIX 時間戳）
 
 //存放及時車位數資料
-// let AvailableSpaces = await getAvailableSpace(accessToken);
 let AvailableSpaces = null;
 let availableSpaceDataExpiry = 0; // 資料過期時間（UNIX 時間戳）
 
 app.use(cors(corsOptions));
+// app.use(cors()); //lambda
 
 app.get("/api/parkingLot", async (req, res) => {
   const currentTime = Math.floor(Date.now() / 1000); // 目前時間（秒）
@@ -63,4 +65,7 @@ app.get("/", (req, res) => {
   res.json(initialParkData);
 })
 
-app.listen(port, () => console.log("Server running on port 3000"));
+// app.listen(port, () => console.log("Server running on port 3000"));
+
+//AWS Lamba
+export default app;

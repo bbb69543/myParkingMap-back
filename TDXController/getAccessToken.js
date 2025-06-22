@@ -1,6 +1,6 @@
 import axios from "axios";
-import dotenv from "dotenv";
-dotenv.config(); // 讀取 .env 檔案
+// import dotenv from "dotenv";
+// dotenv.config(); // 讀取 .env 檔案
 
 // 從環境變數讀取 TDX API 憑證
 const CLIENT_ID = process.env.CLIENT_ID;

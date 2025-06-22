@@ -1,0 +1,55 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: annayao
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: my-parking-map-back
+
+frameworkVersion: '4'
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: ap-northeast-1
+  stage: dev
+  environment:
+    CLIENT_ID: ${ssm:/myParkingMap/CLIENT_ID, true}
+    CLIENT_SECRET: ${ssm:/myParkingMap/CLIENT_SECRET, true} # 如果是 SecureString，用 ~true 解密
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - ssm:GetParameter
+            - ssm:GetParameters
+          Resource:
+            - arn:aws:ssm:ap-northeast-1:296062568780:parameter/myParkingMap/CLIENT_ID
+            - arn:aws:ssm:ap-northeast-1:296062568780:parameter/myParkingMap/CLIENT_SECRET
+  apiGateway:
+    shouldStartNameWithService: true
+
+functions:
+  app:
+    handler: lambda.handler
+    events:
+      - http:          
+          path: /{proxy+}           # 所有路由交給 Express 處理
+          method: ANY
+
+# package:
+#   individually: true
+#   patterns:
+#     - '!node_modules/**'
+#     - 'node_modules/@vendia/**'
+#     - 'node_modules/express/**'
+#     - 'node_modules/axios/**'
+#     - 'node_modules/form-data/**'
+#     - 'node_modules/cors/**'
+#     - 'lambda.js'
+#     - 'server.js'
+#     - 'app.js'
+#     - 'package.json'
+#     - 'package-lock.json' 
+#     - '!*.env'            
+
+package:
+  patterns:
+    - '!*.env'

@@ -138,3 +138,6 @@ dist
 # Docker files
 .docker/
 docker-compose.override.yml
+
+#AWS Lamba
+.serverless
